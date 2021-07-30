@@ -1,14 +1,20 @@
 <template>
-  <div id="app">
+  <v-app id="app">
     <router-link to="/">Home</router-link>
     <router-link to="/about">Go to About</router-link>
+    <Button />
     <router-view></router-view>
-  </div>
+  </v-app>
 </template>
 
 <script>
-
+import Button from 'ui/components/Button.vue'
+import {VApp} from 'vuetify/lib'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Button,
+    VApp
+  }
 }
 </script>

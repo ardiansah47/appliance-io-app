@@ -8,10 +8,13 @@
   },
   "dependencies": {
     "vue": "^2.6.11",
-    "vue-router": "^3.5.2"
+    "vue-router": "^3.5.2",
+    "vuetify": "^2.5.7"
   },
   "devDependencies": {
+    "sass": "~1.32.12",
     "vite": "^2.4.4",
+    "vite-plugin-components": "^0.13.2",
     "vite-plugin-vue2": "^1.7.3",
     "vue-template-compiler": "^2.6.11"
   }
